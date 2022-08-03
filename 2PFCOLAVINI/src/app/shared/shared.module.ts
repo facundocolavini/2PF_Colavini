@@ -7,7 +7,10 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatButtonModule } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
-import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
+import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatIconModule } from '@angular/material/icon';
+import { MatToolbarModule } from '@angular/material/toolbar';
 import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
@@ -20,6 +23,9 @@ import { ReactiveFormsModule } from '@angular/forms';
     MatCardModule,
     MatSnackBarModule,
     MatProgressSpinnerModule,
+    MatSidenavModule,
+    MatIconModule,
+    MatToolbarModule,
     ReactiveFormsModule
   ],
   exports: [   
@@ -29,6 +35,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     MatCardModule,
     MatSnackBarModule,
     MatProgressSpinnerModule,
+    MatSidenavModule,
+    MatIconModule,
     ReactiveFormsModule
   ]
 })
