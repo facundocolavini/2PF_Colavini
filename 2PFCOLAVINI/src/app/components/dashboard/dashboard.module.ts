@@ -10,6 +10,8 @@ import { StudentsComponent } from './components/students/students.component';
 import { CoursesComponent } from './components/courses/courses.component';
 import { SidenavComponent } from './components/sidenav/sidenav.component';
 import { FormsModule } from '@angular/forms';
+import { InscriptionsComponent } from './components/inscriptions/inscriptions.component';
+import { AddStudentsComponent } from './components/add-students/add-students.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +21,8 @@ import { FormsModule } from '@angular/forms';
     StudentsComponent,
     CoursesComponent,
     SidenavComponent,
+    InscriptionsComponent,
+    AddStudentsComponent,
 
   ],
   imports: [
